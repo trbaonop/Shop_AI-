@@ -2,6 +2,7 @@
 Using raspberry pi 4 ,
 camera pi
 scale
+apply few-shot learning
 
 
 System Features
