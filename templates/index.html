@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Shopping</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="camera-card">
+            <video autoplay></video>
+            <canvas class="overlay"></canvas>
+            <div class="controls">
+                <button id="btnStart" class="btn btn-primary">Bật Camera</button>
+                <button id="btnStop" class="btn btn-ghost">Tắt</button>
+                <button id="btnReset" class="btn btn-ghost">Reset giỏ</button>
+            </div>
+        </div>
+        <div class="panel">
+            <h3>Danh sách phát hiện</h3>
+            <div class="detected-list" id="detectedList">Chưa có phát hiện</div>
+            <div id="pendingProduct" style="padding: 8px; background: #f8fafc; border-radius: 6px; margin-top: 8px;">
+                <strong>Đang nhận diện:</strong> <span id="pendingLabel">Chưa có</span> - <span id="pendingQty">0</span> x <span id="pendingPrice">0 VND</span>
+                <button id="btnConfirm" class="btn btn-primary" style="margin-top: 8px;">Xác nhận</button>
+            </div>
+            <h3>Giỏ hàng</h3>
+            <div class="cart-list" id="cartList">Giỏ trống</div>
+            <div class="cart-footer">
+                <div><strong>Tổng:</strong> <span id="total">0 VND</span></div>
+                <button id="btnCheckout" class="btn btn-primary">Thanh toán</button>
+                <button id="btnPrint" class="btn btn-ghost">In hóa đơn</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal">
+        <div class="modal-card">
+            <div id="modalBody">Đang chuẩn bị...</div>
+            <button id="modalClose" class="btn btn-ghost">Đóng</button>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

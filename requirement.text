@@ -1,0 +1,8 @@
+pip install opencv-python==4.10.0
+pip install torch==2.4.1+cu121
+pip install open-clip-torch==2.26.0
+pip install Pillow==10.4.0
+pip install flask==3.0.3
+pip install requests==2.32.3
+pip install jinja2==3.1.4
+pip install python-dotenv==1.0.1
