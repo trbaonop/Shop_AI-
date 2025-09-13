@@ -51,4 +51,6 @@ Activity & transaction logs.
 how it works
 Step 1: download the required libraries
 step 2 : run maincamera.py and server.py
+<img width="1823" height="926" alt="image" src="https://github.com/user-attachments/assets/6013bd21-cfca-4858-a14e-2efee2aa7ea9" />
+
 
